@@ -1,3 +1,3 @@
 class Presenter:
-    def show(*args, **kwargs):
+    def show(self, *args, **kwargs):
         print(*args)

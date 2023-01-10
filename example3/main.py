@@ -1,8 +1,10 @@
-from .print_numbers import print_ten_numbers
+from print_numbers2 import print_ten_numbers
+from presenter import Presenter
 
 
 def main():
-    print_ten_numbers()
+    p = Presenter()
+    print_ten_numbers(p)
 
 
 if __name__ == '__main__':
