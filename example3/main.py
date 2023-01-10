@@ -1,4 +1,4 @@
-from print_numbers import print_ten_numbers
+from .print_numbers import print_ten_numbers
 
 
 def main():
