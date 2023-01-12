@@ -3,5 +3,4 @@ class MonkeyPatchedPresenter:
         self.called = 0
 
     def show(self, *args, **kwargs):
-        print(*args)
         self.called += 1

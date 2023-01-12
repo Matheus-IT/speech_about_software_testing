@@ -12,6 +12,10 @@ class Tests(unittest.TestCase):
         not_prime_number = 8
         self.assertFalse(is_prime(not_prime_number))
 
+    def test_should_be_falsy_if_negative(self):
+        negative = -1
+        self.assertFalse(is_prime(negative))
+
 
 if __name__ == "__main__":
     unittest.main()

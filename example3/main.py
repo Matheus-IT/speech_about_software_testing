@@ -3,8 +3,7 @@ from presenter import Presenter
 
 
 def main():
-    p = Presenter()
-    print_ten_numbers(p)
+    print_ten_numbers(Presenter())
 
 
 if __name__ == '__main__':
